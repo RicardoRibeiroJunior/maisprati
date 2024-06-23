@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/contato.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <div class="conteudo-caixa">
+                <a href="#" class="logo">
+                    <h1 class="conteudo-logo">
+                        <img src="../assets/logo.png"/>
+                        <span>Aquário do Ceará</span>
+                    </h1>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="./contato.html" class="item-link">Contato</a></li>
+                        <li><a href="./sobre.html" class="item-link">Sobre</a></li>
+                        <li><a href="../index.html" class="item-link">Página Inicial</a></li>                 
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerForm">
+            <form class="form">
+                <strong>Contato</strong>
+                
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome"/>
+    
+                <label for="e-mail">E-mail:</label>
+                <input type="text" name="e-mail"/>
+    
+                <textarea placeholder='Deixe um comentário'></textarea>
+    
+                <footer>
+                    <button type='submit' onclick={clicar()}>Enviar</button>
+                </footer>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <span>Aquário do Ceará</span>
+            <span>Rua Tabajaras, 138 - Praia de Iracema, Fortaleza, CE, Brazil</span>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    function clicar(){
+        alert("Mensagem enviada com sucesso!");
+    }
+</script>
+</html>

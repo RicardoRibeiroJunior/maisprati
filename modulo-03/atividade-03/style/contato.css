@@ -1,0 +1,149 @@
+html, header {
+    margin: 0;
+    height: 100%;
+}
+
+.caixa {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+}
+
+.conteudo-caixa {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.conteudo-logo span{
+    color: var(--white);
+    display: block;
+    padding: 20px;
+    font-size: 62px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.item-link{
+    color: var(--white);
+    font-weight: bold;
+}
+
+nav{
+    margin-top: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: right; 
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--gray-600);
+}
+
+.footer span{
+    color: var(--white);
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.containerForm{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form{
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.form > strong{
+    display: block;
+    line-height: 1.6;
+    color: var(--gray-900);
+    padding-bottom: 1rem;
+}
+
+.form label{
+    line-height: 1.6;
+    color: var(--gray-900);
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    background: var(--gray-300);
+    border: 0;
+    height: 1rem;
+    padding: 1rem;
+}
+
+.form textarea{
+    width: 100%;
+    background: var(--gray-300);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-900);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.form button[type=submit]{
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.1s;
+}
+
+.form button[type=submit]:hover{
+    background: var(--green-300);
+}

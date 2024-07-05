@@ -1,0 +1,36 @@
+.header{
+    background: var(--gray-800);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+
+.header img{
+    padding-left: 2rem;
+    height: 2.5rem;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+
+.header ul li{
+    list-style-type: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--bold-font);
+}
+
+.header ul li a:hover {
+    cursor: pointer;
+    color: var(--green-300);
+    transition: 0.5s;
+    text-decoration: none;
+}

@@ -1,0 +1,241 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--gray-900);
+    opacity: 0.8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    position: relative;
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.divisor {
+    width: 1px;
+    background: var(--white);
+    margin: 12px 15px;
+}
+
+.nave-item {
+    list-style-type: none;
+}
+
+.nave-link {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--bold-font);
+}
+
+a:hover {
+    cursor: pointer;
+    color: #9bf0e1;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    color: var(--white);
+    align-items: center;
+}
+
+.logo img{
+    filter: brightness(100);
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}   
+
+.logo span{
+    font-size: 1.2rem;
+}
+
+body {
+	background: url("../image/capa.png"),
+    url("../image/ruido.png"),
+    linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+}
+
+.conteudo-carrossel{
+    padding: 8rem 0;
+}
+
+.carousel-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carousel-content span{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.botao1{
+    height: 40px;
+    border: 0;
+    background: var(--purple-500);
+    color: var(--white);
+    font-size: 1rem;
+    padding: 0 1.25rem;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background: var(--green-500);
+    transition: background-color 0.2s;
+}
+
+.botao2{
+    height: 40px;
+    border: 1px solid var(--white);
+    background: transparent;
+    color: var(--white);
+    font-size: 1rem;
+    padding: 0 1.25rem;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background: var(--green-500);
+    transition: background-color 0.2s;
+}
+
+.sessao2{
+    width: 100%;
+    background: var(--white);
+    padding: 1.5rem 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sessao2-conteudo{
+    width: 100%;
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-fotos{
+    width: 30rem;
+}
+
+.galeria-fotos img{
+    float: left;
+    width: 13rem;
+    height: 13rem;
+    margin: 0.5rem;
+}
+
+.galeria-conteudo{
+    float: right;
+    width: 30rem;
+}
+
+.galeria-conteudo h3, h4{
+    color: var(--purple-500);
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.galeria-conteudo span{
+    color: var(--gray-900);
+}
+
+.sessao3{
+    background: url("../image/capa.png"),
+    url("../image/ruido.png"),
+    linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+}
+
+.sessao3-conteudo{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sessao3-conteudo-esquerda{
+    width: 20rem;
+}
+
+.sessao3-conteudo-esquerda h3{
+    font-weight: bold;
+}
+
+.sessao3-conteudo-esquerda h4{
+    font-weight: bold;
+    color: #9bf0e1;
+}
+
+.sessao3-conteudo-direita{
+    margin-top: 0;
+    margin-right: 0;
+    padding-left: 5rem; 
+    transform: rotate(30deg);
+}
+
+.sessao3-conteudo-direita img{
+   height: 30rem;
+
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background: var(--gray-900);
+    padding: 3rem 0;
+}
+
+.section-footer{
+    margin: 0 200px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda-footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.conteudo-footer{
+    margin-left: 4rem;
+}
+
+.conteudo-footer span{
+    color: var(--gray-300);
+}
+
+.conteudo-footer p{
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+@media (max-width: 300px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
